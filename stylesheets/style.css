@@ -195,7 +195,7 @@ section {
   width: 30vw;
   height: 30vw;
   /* transition: transform 1s ease-in-out; Apply a smooth transition effect */
-  animation: coinFlip 0.5s ease-in-out 1.2s forwards, glow 2s ease-in-out infinite alternate; /* Apply the coin flip animation on hover */
+  animation: coinFlip 0.5s ease-in-out 1.2s forwards, glow 1.2s ease-in-out infinite alternate; /* Apply the coin flip animation on hover */
 }
 /* 
 .logo-image:hover {
@@ -614,7 +614,11 @@ span{
   .team-content{
     flex-direction: column;
   }
-
+  .team-content h3{
+    margin-top: -11rem;
+    /* margin: 1rem 0; */
+    font-size: 2.6rem;
+  }
   .team-img img{
     width: 90vw;
   }
