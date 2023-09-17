@@ -686,6 +686,12 @@ span{
 
 }
 
+@media(max-width: 565px){
+  .footer{
+    justify-content: start;
+  }
+}
+
 @media(max-width: 450px){
   /* .home-img{
     margin-left: 2.8rem;
